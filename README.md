@@ -1,29 +1,32 @@
-# Project V2Ray
+# Project V
 
-[![Build Status](https://travis-ci.org/v2ray/v2ray-core.svg?branch=master)](https://travis-ci.org/v2ray/v2ray-core)
-[![Coverage Status](https://coveralls.io/repos/v2ray/v2ray-core/badge.svg?branch=master&service=github)](https://coveralls.io/github/v2ray/v2ray-core?branch=master)
-[![GoDoc](https://godoc.org/github.com/v2ray/v2ray-core?status.svg)](https://godoc.org/github.com/v2ray/v2ray-core)
+[![Build Status][1]][2] [![codecov.io][3]][4] [![Go Report][5]][6] [![GoDoc][7]][8] [![codebeat][9]][10] [![Downloads][11]][12]
 
-V2Ray 是一个翻墙工具包，用于简化和复用其它翻墙工具，加速二次开发。
+[1]: https://travis-ci.org/v2ray/v2ray-core.svg?branch=master "Build Status badge"
+[2]: https://travis-ci.org/v2ray/v2ray-core "Travis-CI Build Status"
+[3]: https://codecov.io/github/v2ray/v2ray-core/coverage.svg?branch=master "Coverage badge"
+[4]: https://codecov.io/github/v2ray/v2ray-core?branch=master "Codecov Status"
+[5]: https://goreportcard.com/badge/v2ray.com/core "Go Report badge"
+[6]: https://goreportcard.com/report/v2ray.com/core "Go Report"
+[7]: https://godoc.org/v2ray.com/core?status.svg "GoDoc badge"
+[8]: https://godoc.org/v2ray.com/core "GoDoc"
+[9]: https://codebeat.co/badges/f2354ca8-3e24-463d-a2e3-159af73b2477 "Codebeat badge"
+[10]: https://codebeat.co/projects/github-com-v2ray-v2ray-core-master "Codebeat"
+[11]: https://img.shields.io/github/downloads/v2ray/v2ray-core/total.svg "All releases badge"
+[12]: https://github.com/v2ray/v2ray-core/releases/ "All releases number"
 
-“V2”来源于 [V2 火箭](https://zh.wikipedia.org/wiki/V-2%E7%81%AB%E7%AE%AD)，Ray 即射线，意指新一代的翻墙工具。
+Project V is a set of network tools that help you to build your own computer network. It secures your network connections and thus protects your privacy. See [our website](https://www.v2ray.com/) for more information.
 
-## 主要特点
-* 多对多服务器支持，负载均衡
-* 支持多用户
-* 开放协议支持，兼容 ShadowSocks 和 GoAgent
+## License
 
-## 概要设计
-[链接](https://github.com/V2Ray/v2ray-core/blob/master/spec/design.md)
+[The MIT License (MIT)](https://raw.githubusercontent.com/v2ray/v2ray-core/master/LICENSE)
 
-## 合作机会
-所有被标记为“[Help Wanted](https://github.com/v2ray/v2ray-core/labels/help%20wanted)”的 Issue 都接受 Pull Request，如果你对本项目感兴趣并想做点贡献，请挑选其中之一完善之，不甚感激。
+## Credits
 
-## 开发日程
+This repo relies on the following third-party projects:
 
-* 2015.11 **1.0** 完成，单服务器模式，可独立运行
-* 2016.01 **1.5** 完成，兼容 ShadowSocks 协议
-* 2016.04 **2.0** 完成，多服务器模式
-
-## 关于
-我是只是一名普通的开发人员，已肉翻，本已不依赖这些翻墙工具，但 ShadowSock 和 GoAgent 被迫删除代码的事件实在太恶心，不得不做点什么了。
+* In production:
+  * [miekg/dns](https://github.com/miekg/dns)
+  * [gorilla/websocket](https://github.com/gorilla/websocket)
+* For testing only:
+  * [h12w/socks](https://github.com/h12w/socks)
